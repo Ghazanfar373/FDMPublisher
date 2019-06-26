@@ -1,0 +1,13 @@
+module FDMData
+{
+   struct FDM
+   {
+      long userID;    // User ID
+      double Lattitude; // 
+	 double Longitude; // 
+	 double Altitude; 
+
+
+   };
+   #pragma keylist FDM userID
+};
